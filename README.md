@@ -1,8 +1,8 @@
 # hr_analytics
-## 📊 Project Overview
-This project analyzes employee attrition using SQL and Power BI to identify key factors influencing employee turnover.
+Project Overview
+This project analyzes employee attrition using SQL to identify key factors influencing employee turnover.
 
-## 🔍 Key Insights
+##  Key Insights
 - Overall attrition rate: 16.16%
 - Highest attrition in Sales department
 - Young employees (18–25) show higher attrition
@@ -10,10 +10,10 @@ This project analyzes employee attrition using SQL and Power BI to identify key 
 - Combination of low salary + overtime leads to 50%+ attrition
 - Job satisfaction and environment are key drivers
 
-## 🧠 Tools Used
+## Tools Used
 - SQL
 
-## 📌 Key Query Example
+## Key Query Example
 ```sql
 SELECT Department,
 ROUND(100.0 * SUM(CASE WHEN Attrition='Yes' THEN 1 END)/COUNT(*),2) AS attrition_rate
